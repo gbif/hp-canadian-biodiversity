@@ -3,9 +3,9 @@ lang-ref: home
 layout: home
 title: Système canadien d'information sur la biodiversité (SCIB)
 description: Le SCIB fournit des outils pour aider les utilisateurs à trouver les informations dont ils ont besoin.
-background: https://api.gbif.org/v1/image/unsafe/https%3A%2F%2Fstatic.inaturalist.org%2Fphotos%2F58912610%2Foriginal.jpeg%3F1577953995
+background: /assets/images/guy-tsror-ibpr-RbpRG8-unsplash.jpg
 imageLicense: |
-  *Xylaria hypoxylon* (L.) Grev. Photo by Alexis via [iNaturalist](https://www.gbif.org/occurrence/2542961803)
+  Photo by [Guy Tsror](https://unsplash.com/@guyts?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 cta:
   - text: Commencez à explorer
     href: /fr/data
