@@ -1,7 +1,7 @@
 ---
 title:  "Welcome to the new CBIF"
 date:   2021-01-14 15:20:00 +0100
-categories: ["CBIF", "User guides"]
+categories: ["CBIF", "user guides"]
 lang-ref: user guide
 background: /assets/images/chelsey-faucher-_kV00zjg9xg-unsplash.jpg
 imageLicense: |
