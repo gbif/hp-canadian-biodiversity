@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines (until baseurl:)
   CBIF provides tools to help users find the information they need.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: AAFC_Canada
+facebook_username: CanadianAgriculture
 
 # Build settings
 theme: minima

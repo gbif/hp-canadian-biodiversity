@@ -3,24 +3,22 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Partnere
+  - name: Nos partenaires
     links:
-    - text: Navn på projektpartner
-      href: http://example.com
-    - text: Name of project partner 2
-      href: http://example.com
+    - text: Canadensys
+      href: https://community.canadensys.net/?lang=fr
+    - text: Agriculture et Agroalimentaire Canada
+      href: https://www.agr.gc.ca/fra/
 
-  - name: Code
+  - name: Contactez-nous
     description: | # Can be Markdown
-      This project is open source. See `_data/footer.yml` to customize the footer.
-  
-  - name: Contact
-    description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      * aafc.cbif-scib.aac@canada.ca
     connectIcons: true
+    
+  - name: Logo
+    description: | # Can be Markdown
+      Icône réalisée par [Freepik](https://www.freepik.com) à partir de [Flaticon](https://www.flaticon.com/)
+
 
   # EXAMPLE
   #- name: Group name
