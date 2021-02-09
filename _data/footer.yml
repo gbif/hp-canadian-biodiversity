@@ -21,6 +21,11 @@ columns:
       * 1234 postal code
       * Country
     connectIcons: true
+    
+  - name: Logo
+    description: | # Can be Markdown
+      Icon made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/)
+
 
   # EXAMPLE
   #- name: Group name
