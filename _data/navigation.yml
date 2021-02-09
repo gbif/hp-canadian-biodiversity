@@ -4,17 +4,11 @@
   href: /about
 - text: Data
   href: /data
-- text: Links
+- text: Tools
+  href: /tools
+- text: Projects
   menu: # Dropdown menu (one level deep only)
-  - text: Base theme demo
-    href: https://hp-base-theme.gbif-staging.org/
-  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Docs" # Title for block of menu items
-  - text: Jekyll documentation
-    href: https://jekyllrb.com/docs/pages/
-  - text: Markdown tutorial
-    href: https://guides.github.com/features/mastering-markdown/
-  - text: YAML tutorial
-    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
+  - text: Genomics Research and Development Initiative (GRDI)
+    href: /grdi
 - text: News
   href: /news/
