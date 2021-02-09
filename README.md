@@ -8,4 +8,4 @@ This Jekyll website, **[hp-canadian-biodiversity](https://hp-canadian-biodiversi
 
 You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals)
 
-> Powered by [GBIF](https://www.gbif.org/)
+> Powered by [GBIF](https://www.gbif.org/) and [TDWG](https://www.tdwg.org/)

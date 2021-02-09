@@ -12,10 +12,7 @@ columns:
 
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      * aafc.cbif-scib.aac@canada.ca
     connectIcons: true
     
   - name: Logo
