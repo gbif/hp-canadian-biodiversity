@@ -1,7 +1,7 @@
 ---
 lang-ref: apropos
 title: À propos
-description: Lorem markdownum spatium limes indefessus neque at orat aestuat
+description: À propos du Système canadien d'information sur la biodiversité (SCIB)
 background: /assets/images/sergey-pesterev-tJnqdD5sO_M-unsplash.jpg
 imageLicense: |
   Photo by [Sergey Pesterev](https://unsplash.com/@sickle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -23,4 +23,4 @@ L'accès libre et gratuit à toutes les informations disponibles sur la biodiver
 
 *Partager ouvertement, faciliter la découverte et encourager l'utilisation des meilleures connaissances disponibles sur la biodiversité canadienne afin de soutenir la prise de décision fondée sur des preuves.*
 
-[Explorez les données](/fr/data){: .button .is-primary} [Explorez les outils](/fr/tools){: .button}
+[Explorez les données](/fr/data){: .button .is-primary} [Explorez les outils](/fr/outils){: .button}

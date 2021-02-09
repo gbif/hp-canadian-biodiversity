@@ -5,12 +5,10 @@
 - text: Données
   href: /fr/data
 - text: Outils
-  href: /outils
+  href: /fr/outils
 - text: Projets
   menu: # Dropdown menu (one level deep only)
   - text: Initiative de recherche et développement en génomique (IRDG)
-    href: /irdg
+    href: /fr/irdg
 - text: Nouvelles
   href: /nouvelles/
-- text: Français
-  href: /fr/francais/
