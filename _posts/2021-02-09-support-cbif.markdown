@@ -1,6 +1,6 @@
 ---
 title:  "Help support CBIF!"
-date:   2020-09-25 21:37:12 +0200
+date:   2021-02-09 21:37:12 +0200
 categories: ["CBIF", "fundraising"]
 lang-ref: support cbif
 background: /assets/images/chelsey-faucher-Ncwmm9uVYW0-unsplash.jpg

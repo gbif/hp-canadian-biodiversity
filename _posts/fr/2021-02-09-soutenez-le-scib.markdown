@@ -1,7 +1,7 @@
 ---
 title:  "Aidez à soutenir le SCIB !"
-date:   2020-09-25 21:37:12 +0200
-categories: ["CBIF", "fundraising"]
+date:   2021-02-09 21:37:12 +0200
+categories: ["SCIB", "collecte de fonds"]
 lang-ref: soutenez le cbif
 background: /assets/images/chelsey-faucher-Ncwmm9uVYW0-unsplash.jpg
 imageLicense: |
