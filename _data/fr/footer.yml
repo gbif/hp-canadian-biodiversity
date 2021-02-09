@@ -15,7 +15,7 @@ columns:
       * aafc.cbif-scib.aac@canada.ca
     connectIcons: true
     
-  - name: Logo
+  - name: Notre logo
     description: | # Can be Markdown
       Icône réalisée par [Freepik](https://www.freepik.com) à partir de [Flaticon](https://www.flaticon.com/)
 
@@ -36,4 +36,4 @@ columns:
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
 # Will be postfixed by "Powered by GBIF"
 license: >
-  Content on this site is licensed under an [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+  Le contenu de ce site est soumis à une licence [Apache 2.0 License] (https://www.apache.org/licenses/LICENSE-2.0).
