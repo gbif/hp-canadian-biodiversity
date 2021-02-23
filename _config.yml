@@ -23,7 +23,7 @@ email: aafc.cbif-scib.aac@canada.ca
 description: >- # this means to ignore newlines (until baseurl:)
   CBIF provides tools to help users find the information they need.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hp-canadian-biodiversity.gbif-staging.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: AAFC_Canada
 facebook: CanadianAgriculture
 
