@@ -9,6 +9,8 @@ columns:
       href: https://community.canadensys.net/?lang=fr
     - text: Agriculture et Agroalimentaire Canada
       href: https://www.agr.gc.ca/fra/
+    - text: Biodiversity Information Standards (TDWG)
+      href: https://www.tdwg.org/  
 
   - name: Contactez-nous
     description: | # Can be Markdown
