@@ -1,5 +1,5 @@
 ---
-lang-ref: outils
+lang-ref: tools
 title: Outils
 description: Le SCIB fournit les outils suivants pour aider les utilisateurs à trouver les informations dont ils ont besoin.
 background: /assets/images/chelsey-faucher-TqVPWJE_a4E-unsplash.jpg

@@ -1,5 +1,5 @@
 ---
-lang-ref: irdg
+lang-ref: grdi
 title: Initiative de recherche et développement en génomique (IRDG)
 description: 
 background: /assets/images/tina-rolf-yuF2B5Zyz88-unsplash.jpg
