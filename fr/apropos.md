@@ -1,5 +1,5 @@
 ---
-lang-ref: apropos
+lang-ref: about
 title: À propos
 description: À propos du Système canadien d'information sur la biodiversité (SCIB)
 background: /assets/images/sergey-pesterev-tJnqdD5sO_M-unsplash.jpg
