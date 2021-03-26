@@ -24,4 +24,4 @@ Free and open access to all the available information on biodiversity for users 
 
 *To openly share, facilitate discovery and encourage the use of the best available knowledge of Canadian biodiversity in support of evidence-based decision making.*
 
-[Explore the data](/data){: .button .is-primary} [Explore tools](/tools){: .button}
+[Explore the data](/en/data){: .button .is-primary} [Explore tools](/en/tools){: .button}
