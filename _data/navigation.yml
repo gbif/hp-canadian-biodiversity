@@ -1,16 +1,16 @@
 # Links listed below will be included in your site's navbar (navigation at the top)
 
 - text: About
-  href: /about
+  href: /en/about
 - text: Data
-  href: /data
+  href: /en/data
 - text: Tools
-  href: /tools
+  href: /en/tools
 - text: Projects
   menu: # Dropdown menu (one level deep only)
   - text: Genomics Research and Development Initiative (GRDI)
-    href: /grdi
+    href: /en/grdi
 - text: News
-  href: /news/
+  href: /en/news/
 - text: Français
   href: /fr/
