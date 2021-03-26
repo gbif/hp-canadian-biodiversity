@@ -1,5 +1,7 @@
 en:
   label: English
+  archive_permalink: /en/post/
   icon:  # optional
 fr:
   label: Français
+  archive_permalink: /fr/post/

@@ -85,10 +85,18 @@ defaults:
       lang: en
   -
     scope:
-      path: "_posts" # an empty string here means all files in the project
+      path: "_posts/en"
     values:
+      lang: en
       layout: "post"
-      permalink: "/post/:year/:slug/"   # Use /post/yyyy/{filename}/ as permalink for all posts
+      permalink: "/en/post/:year/:slug/"   # Use /en/post/yyyy/{filename}/ as permalink for all English posts
+  -
+    scope:
+      path: "_posts/fr"
+    values:
+      lang: fr
+      layout: "post"
+      permalink: "/fr/post/:year/:slug/"   # Use /fr/post/yyyy/{filename}/ as permalink for all French posts
   -
     scope:
       path: "en/"
