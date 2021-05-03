@@ -21,6 +21,9 @@ columns:
     description: | # Can be Markdown
       Icon made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com/)
 
+  - name: Terms and Conditions
+    description: | # Can be Markdown
+      {% link en/terms.md %}
 
   # EXAMPLE
   #- name: Group name

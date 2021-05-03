@@ -21,9 +21,9 @@ columns:
     description: | # Can be Markdown
       Icône réalisée par [Freepik](https://www.freepik.com) à partir de [Flaticon](https://www.flaticon.com/)
 
-  - name: Licence
+  - name: Avis
     description: | # Can be Markdown
-      Le contenu de ce site est soumis à une licence [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
+      {% link fr/avis.md %}
 
   # EXAMPLE
   #- name: Group name
