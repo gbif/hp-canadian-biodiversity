@@ -11,6 +11,4 @@ imageLicense: |
 
 # Welcome / Bienvenue
 
-
-
-
+Canadian Biodiversity Information Facility / Système canadien d'information sur la biodiversité
