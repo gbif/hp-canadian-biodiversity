@@ -23,7 +23,7 @@ columns:
 
   - name: Avis
     description: | # Can be Markdown
-      [Avis]({% link fr/avis.md %})
+      [Avis](avis)
 
   # EXAMPLE
   #- name: Group name

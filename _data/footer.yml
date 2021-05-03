@@ -23,7 +23,7 @@ columns:
 
   - name: Terms and Conditions
     description: | # Can be Markdown
-      [Terms and Conditions]({% link en/terms.md %})
+      [Terms and Conditions](terms)
 
   # EXAMPLE
   #- name: Group name
