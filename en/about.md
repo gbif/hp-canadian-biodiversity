@@ -20,7 +20,7 @@ Free and open access to all the available information on biodiversity for users 
 * assess the impact of invasive species
 
 
-## Misson
+## Mission
 
 *To openly share, facilitate discovery and encourage the use of the best available knowledge of Canadian biodiversity in support of evidence-based decision making.*
 
