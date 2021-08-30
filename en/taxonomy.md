@@ -14,12 +14,9 @@ height: 70vh
 # parallax: true # OPTION - default is false
 # toc: true # OPTIONAL - default is false. Should the page have a Table of Contents
 # mobileToc: true # OPTIONAL - default is false. Should the TOC show on mobile devices (will show above article)
-cta: # OPTIONAL list of buttons
-- text: Optional Call To Action
-  href: /link-to-somewhere
-  isPrimary: true # OPTIONAL
+
 ---
 
 | Checklist Name            | Data |
 |---------------------------|-------|
-|[Checklist of the Hymenoptera of Canada, Alaska and Greenland] (https://www.gbif.org/dataset/a50c0cd6-f5d7-417d-ab58-71975148edf6) | [Download] (https://data.canadensys.net/ipt/archive.do?r=aafc-hymenoptera-canada-ak-gl){:.button} |
+|[Checklist of the Hymenoptera of Canada, Alaska and Greenland](https://www.gbif.org/dataset/a50c0cd6-f5d7-417d-ab58-71975148edf6) | [Download](https://data.canadensys.net/ipt/archive.do?r=aafc-hymenoptera-canada-ak-gl){:.button} |
