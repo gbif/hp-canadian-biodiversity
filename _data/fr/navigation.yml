@@ -10,6 +10,14 @@
   menu: # Dropdown menu (one level deep only)
   - text: Initiative de recherche et développement en génomique (IRDG)
     href: /fr/irdg
+- text: Collections
+  menu:
+  - text: Collection nationale canadienne d'insectes, d'arachnides et de nématodes (CNC)
+    href: /fr/cnc
+  - text: Collection nationale de plantes vasculaires (DAO)
+    href: /fr/dao
+- text: Taxonomie
+  href: /fr/taxonomie
 - text: Nouvelles
   href: /fr/nouvelles/
 - text: English
