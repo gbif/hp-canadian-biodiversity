@@ -20,3 +20,5 @@ height: 70vh
 | Checklist Name            | Data |
 |---------------------------|-------|
 |[Checklist of the Hymenoptera of Canada, Alaska and Greenland](https://www.gbif.org/dataset/a50c0cd6-f5d7-417d-ab58-71975148edf6) | [Download](https://data.canadensys.net/ipt/archive.do?r=aafc-hymenoptera-canada-ak-gl){:.button} |
+|[Database of Vascular Plants of Canada (VASCAN)](https://www.gbif.org/dataset/3f8a1297-3259-4700-91fc-acc4170b27ce)| [Download](https://data.canadensys.net/ipt/archive.do?r=vascan){:.button}|
+|[Checklist of Beetles (Coleoptera) of Canada and Alaska. Second Edition] | [Download](http://data.canadensys.net/ipt/archive.do?r=coleoptera-ca-ak){:.button}|
