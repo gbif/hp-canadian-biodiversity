@@ -17,5 +17,6 @@ var siteConfig = {
         "value": "COUNTRY_COORDINATE_MISMATCH"
       }
     ]
-  }
+  },
+  occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'], // possible values are TABLE, MAP, GALLERY, DATASETS
 };
