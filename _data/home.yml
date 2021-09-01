@@ -14,3 +14,26 @@ stats:
     - title: 456,678
       description: Cruorem tremor
       #background: /assets/img/icons/variability.png
+
+description:
+  # preTitle: Customization  # optional
+  # title: Gathered under above give female
+  description: |      # required
+    In support of the [Global Biodiversity Information Facility
+    (GBIF)](http://www.gbif.org/), Canada is exploring new ways to improve the
+    organization, exchange, correlation, and availability of primary data on
+    biological species of interest to Canadians. By enhancing access to these
+    data, CBIF provides a valuable resource that supports a wide range of
+    social and economic decisions including efforts to conserve our
+    biodiversity in healthy ecosystems, use our biological resources in
+    sustainable ways, and monitor and control pests and diseases.
+
+  #background: /assets/theme/img/patterns/wavy-dots.png
+  #overlayColor: "#ffffff55"
+  #hasWhiteText: false
+  #cta:                # optional
+  #- text: Learn more
+  #  href: http://example.com
+  #- text: Download
+  #  href: http://example.com
+  center: true
