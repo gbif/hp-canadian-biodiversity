@@ -1,8 +1,8 @@
 stats:
   # klass: my-custom-identifier-for-styling
   # background:
-  features:
-  #description: |      # required
+  description: |      # required
+    description
   #  See [`_data/compose/examples.yml`](https://github.com/gbif/jekyll-theme-algae/blob/master/_data/compose/examples.yml#L72) for the content structure.
   features:
       # Hard coded value
@@ -10,7 +10,7 @@ stats:
       # klass:
       description: Occurrences
       #background: /assets/img/icons/validity.png
-      href: /about
+      # href: /about
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishing_country=CA&limit=0">100,000</span>
       description: Datasets
       # background: /assets/img/icons/music.png
