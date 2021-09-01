@@ -1,19 +1,11 @@
 ---
-layout: compose
 lang-ref: about
 title: About
 description: About the Canadian Biodiversity Information Facility (CBIF)
 background: /assets/images/sergey-pesterev-tJnqdD5sO_M-unsplash.jpg
 imageLicense: |
   Photo by [Sergey Pesterev](https://unsplash.com/@sickle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-#height: 70vh
-permalink: /about
-composition:
-- type: heroImage
-  # data: compose.someFile.someProperty # no data provided, instead page data will be used
-- type: pageMarkdown
-- type: stats
-  data: about.content.stats
+height: 70vh
 ---
 
 ## Rationale
