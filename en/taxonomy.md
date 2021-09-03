@@ -17,8 +17,9 @@ height: 70vh
 
 ---
 
-| Checklist Name            | Data |
+| Checklist Name            | Download |
 |---------------------------|-------|
-|[Checklist of the Hymenoptera of Canada, Alaska and Greenland](https://www.gbif.org/dataset/a50c0cd6-f5d7-417d-ab58-71975148edf6) | [Download](https://data.canadensys.net/ipt/archive.do?r=aafc-hymenoptera-canada-ak-gl){:.button} |
-|[Database of Vascular Plants of Canada (VASCAN)](https://www.gbif.org/dataset/3f8a1297-3259-4700-91fc-acc4170b27ce)| [Download](https://data.canadensys.net/ipt/archive.do?r=vascan){:.button}|
-|[Checklist of Beetles (Coleoptera) of Canada and Alaska. Second Edition] | [Download](http://data.canadensys.net/ipt/archive.do?r=coleoptera-ca-ak){:.button}|
+|[Checklist of the Hymenoptera of Canada, Alaska and Greenland](https://www.gbif.org/dataset/a50c0cd6-f5d7-417d-ab58-71975148edf6) | [DWCA](https://data.canadensys.net/ipt/archive.do?r=aafc-hymenoptera-canada-ak-gl){:.button} |
+|[Database of Vascular Plants of Canada (VASCAN)](https://www.gbif.org/dataset/3f8a1297-3259-4700-91fc-acc4170b27ce)| [DWCA](https://data.canadensys.net/ipt/archive.do?r=vascan){:.button}|
+|[Checklist of Beetles (Coleoptera) of Canada and Alaska. Second Edition](https://www.gbif.org/dataset/7a9bccd4-32fc-420e-a73b-352b92267571) | [DWCA](https://data.canadensys.net/ipt/archive.do?r=coleoptera-ca-ak){:.button}|
+|[Brassicaceae of Canada](https://www.gbif.org/dataset/845bc5c2-f762-11e1-a439-00145eb45e9a) | [GBIF Archive](https://www.gbif.org/occurrence/download?dataset_key=845bc5c2-f762-11e1-a439-00145eb45e9a){:.button} [DWCA](https://orphans.gbif.org/CA/845bc5c2-f762-11e1-a439-00145eb45e9a.zip){:.button}|

@@ -14,7 +14,8 @@ stats:
       description: Occurrences with images
       href: /data?view=GALLERY
       #background: /assets/img/icons/variability.png
-    - title: 2,030,272 # Hard coded based on Sept 3 2021 serach on GBIF:
+    - title: 2,030,272
+              # Hard coded based on Sept 3 2021 serach on GBIF:
               #(Canada + Amplification) - (Canada + COUNTRY_COORDINATE_MISMATCH ) = 2061239 - 30967
       description: Sequences
       href: /data
