@@ -11,11 +11,12 @@
   - text: Initiative de recherche et développement en génomique (IRDG)
     href: /fr/irdg
 - text: Collections
+  href: /fr/collections
   menu:
   - text: Collection nationale canadienne d'insectes, d'arachnides et de nématodes (CNC)
-    href: /fr/cnc
+    href: /fr/collections/cnc
   - text: Collection nationale de plantes vasculaires (DAO)
-    href: /fr/dao
+    href: /fr/collections/dao
 - text: Taxonomie
   href: /fr/taxonomie
 - text: Nouvelles

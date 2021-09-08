@@ -11,11 +11,12 @@
   - text: Genomics Research and Development Initiative (GRDI)
     href: /en/grdi
 - text: Collections
+  href: /en/collections
   menu:
   - text: Canadian National Collection of Insects, Arachnids, and Nematodes (CNC)
-    href: /en/cnc
+    href: /en/collections/cnc
   - text: National Collection of Vascular Plants (DAO)
-    href: /en/dao
+    href: /en/collections/dao
 - text: Taxonomy
   href: /en/taxonomy
 - text: News
