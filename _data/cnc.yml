@@ -1,0 +1,51 @@
+description:
+  description: description
+  preTitle: preTitle  # optional
+  title: Title
+  markdownContent: |      # required
+    Some interesting information...
+
+
+      [CNC website](https://agriculture.canada.ca/en/scientific-collaboration-and-research-agriculture/agriculture-and-agri-food-research-centres-and-collections/canadian-national-collection-insects-arachnids-and-nematodes-cnc)
+
+contact:
+  # preTitle: Customization  # optional
+  # title: Gathered under above give female
+  markdownContent: |      # required
+    <form>
+      <li>
+        <label for="name">Name:</label>
+      </li>
+      <li>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+      <button onclick="openMailer()">Mail us</button>
+    </form>
+
+    <script>
+    function openMailer() {
+      var link = "mailto:melanie.belisle-leclerc@agr.gc.ca" +
+        "?cc=myCCaddress@example.com" +
+        "&subject=" + encodeURIComponent("CNC Information Request from Hosted-Portal!") +
+        "&body=" + encodeURIComponent(document.getElementById('msg').value);
+
+      window.location.href = link;
+    }
+    </script>
+
+
+  #background: /assets/theme/img/patterns/wavy-dots.png
+  #overlayColor: "#ffffff55"
+  #hasWhiteText: false
+  #cta:                # optional
+  #- text: Learn more
+  #  href: http://example.com
+  #- text: Download
+  #  href: http://example.com
+  # center: true
+
+
+
+
+
