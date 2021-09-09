@@ -10,13 +10,8 @@ height: 70vh
 layout: compose
 composition:
   - type: heroImage
-  - type: pageMarkdown
+  - type: markdown
     data: cnc.description
-  - type: pageMarkdown
+  - type: markdown
     data: cnc.contact
 ---
-
-Some interesting information...
-
-
-[CNC website](https://agriculture.canada.ca/en/scientific-collaboration-and-research-agriculture/agriculture-and-agri-food-research-centres-and-collections/canadian-national-collection-insects-arachnids-and-nematodes-cnc)
