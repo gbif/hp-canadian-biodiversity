@@ -9,42 +9,68 @@ description:
       [CNC website](https://agriculture.canada.ca/en/scientific-collaboration-and-research-agriculture/agriculture-and-agri-food-research-centres-and-collections/canadian-national-collection-insects-arachnids-and-nematodes-cnc)
 
 contact:
-  # preTitle: Customization  # optional
-  # title: Gathered under above give female
-  markdownContent: |      # required
+  preTitle: preTitle  # optional
+  title: Title
+  markdownContent: |
 
-    <form>
-      <li>
-        <label for="name">Name:</label>
-      </li>
-      <li>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message"></textarea>
-      </li>
-      <button onclick="openMailer()">Mail us</button>
-    </form>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script type="text/javascript" src="https://react-components.gbif-staging.org/lib/gbif-react-components.js"></script>
 
+    <div id="root"></div>
     <script>
-    function openMailer() {
-      var link = "mailto:melanie.belisle-leclerc@agr.gc.ca" +
-        "?cc=myCCaddress@example.com" +
-        "&subject=" + encodeURIComponent("CNC Information Request from Hosted-Portal!") +
-        "&body=" + encodeURIComponent(document.getElementById('msg').value);
 
-      window.location.href = link;
-    }
+      class Mail extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = { value: "" };
+
+        this.handleChange = this.handleChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
+        }
+
+        handleChange(event) {
+          this.setState({ value: event.target.value });
+        }
+
+        handleSubmit(event) {
+          openMailer();
+          alert("A name was submitted: " + this.state.value);
+          event.preventDefault();
+        }
+
+        render() {
+          return (
+            <form onSubmit={this.handleSubmit}>
+              <label>
+                Name:
+                <input
+                  type="text"
+                  value={this.state.value}
+                  onChange={this.handleChange}
+                  />
+              </label><br/>
+              <textarea id="msg" name="user_message"></textarea>
+              <input type="submit" value="Submit" />
+            </form>
+          );
+        }
+      }
+
+      ReactDOM.render(<Mail />, document.getElementById("root"));
+
+      function openMailer() {
+        var link =
+          "mailto:melanie.belisle-leclerc@agr.gc.ca" +
+          "?cc=myCCaddress@example.com" +
+          "&subject=" +
+          encodeURIComponent("CNC Information Request from Hosted-Portal!") +
+          "&body=" +
+          encodeURIComponent(document.getElementById("msg").value);
+
+        window.location.href = link;
+      }
     </script>
-
-
-  #background: /assets/theme/img/patterns/wavy-dots.png
-  #overlayColor: "#ffffff55"
-  #hasWhiteText: false
-  #cta:                # optional
-  #- text: Learn more
-  #  href: http://example.com
-  #- text: Download
-  #  href: http://example.com
-  # center: true
 
 
 
