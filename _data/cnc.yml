@@ -29,10 +29,10 @@ contact:
           null,
           [
             React.createElement(
-              gbifReactComponents.Input,
-              {
+              "textarea", {
+                name: 'msg:',
                 id: 'msg',
-                style: { height: '200px' }
+                className: 'email-textarea'
               }
             ),
             React.createElement(

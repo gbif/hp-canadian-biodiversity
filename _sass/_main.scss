@@ -1,3 +1,28 @@
 @import "theme/_main";
 
 // You can add additional styling here
+
+.email-textarea {
+    box-sizing: border-box;
+    margin: 0px;
+    font-variant: tabular-nums;
+    list-style: outside none none;
+    font-feature-settings: "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 200px;
+    padding: 4px 11px;
+        padding-top: 4px;
+        padding-right: 11px;
+        padding-bottom: 4px;
+        padding-left: 11px;
+    color: rgb(39, 61, 76);
+    font-size: inherit;
+    line-height: 1.5;
+    background-color: rgb(252, 253, 253);
+    background-image: none;
+    border: 1px solid rgba(136, 136, 136, 0.333);
+    border-radius: 3px;
+    transition: all 0.3s ease 0s;
+}
