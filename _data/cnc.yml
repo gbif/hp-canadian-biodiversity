@@ -20,48 +20,71 @@ contact:
     <div id="root"></div>
     <script>
 
+      class Mail extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = { value: "" };
+          this.handleChange = this.handleChange.bind(this);
+          this.handleClick = this.handleClick.bind(this);
+        }
 
+        handleChange(event) {
+          this.setState({ value: event.target.value });
+          //console.log(event.target.value);
+        }
 
+        handleClick() {
+          var value = nl2br(this.state.value, true, false);
+          console.log(this.state.value);
+          console.log(nl2br(value, true, true));
+          if (value != "") {
+            var link =
+              "mailto:melanie.belisle-leclerc@agr.gc.ca" +
+              "?cc=myCCaddress@example.com" +
+              "&subject=" +
+              encodeURIComponent("CNC Information Request from Hosted-Portal!") +
+              "&body=" +
+              value;
+            window.location.href = link;
+          }
+        }
 
-      ReactDOM.render(
-        React.createElement(
-          'div',
-          null,
-          [
-            React.createElement(
-              "textarea", {
-                name: 'msg:',
-                id: 'msg',
-                className: 'email-textarea'
-              }
-            ),
+        render() {
+          return React.createElement("div", null, [
+            React.createElement("textarea", {
+              name: "msg:",
+              id: "msg",
+              value: this.state.value,
+              onChange: (e) => {
+                this.handleChange(e);
+              },
+              className: "email-textarea"
+            }),
             React.createElement(
               gbifReactComponents.Button,
               {
-                'className':"button is-primary",
-                'onClick': openMailer(),
+                className: "button is-primary",
+                onClick: this.handleClick.bind(this)
               },
               "Send"
             )
-          ]
-        ),
-        document.getElementById("root")
-      );
+          ]);
+        }
+      }
 
-      function openMailer() {
-        var link =
-          "mailto:melanie.belisle-leclerc@agr.gc.ca" +
-          "?cc=myCCaddress@example.com" +
-          "&subject=" +
-          encodeURIComponent("CNC Information Request from Hosted-Portal!") +
-          "&body="; //+
-          //encodeURIComponent(document.getElementById("msg").value);
+      ReactDOM.render(React.createElement(Mail, null), document.getElementById("root"));
 
-        window.location.href = link;
+      /**
+       * This function is same as PHP's nl2br() with default parameters.
+       *
+       * @param {string} str Input text
+       * @param {boolean} replaceMode Use replace instead of insert
+       * @param {boolean} isXhtml Use XHTML
+       * @return {string} Filtered text
+       */
+      function nl2br(str, replaceMode, isXhtml) {
+        var breakTag = isXhtml ? "<br />" : "<br>";
+        var replaceStr = replaceMode ? "$1" + breakTag : "$1" + breakTag + "$2";
+        return (str + "").replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, replaceStr);
       }
     </script>
-
-
-
-
-
