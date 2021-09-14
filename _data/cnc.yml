@@ -34,17 +34,15 @@ contact:
         }
 
         handleClick() {
-          var value = nl2br(this.state.value, true, false);
-          console.log(this.state.value);
-          console.log(nl2br(value, true, true));
-          if (value != "") {
+          var body = encodeURIComponent(this.state.value);
+          if (body != "") {
             var link =
               "mailto:melanie.belisle-leclerc@agr.gc.ca" +
               "?cc=myCCaddress@example.com" +
               "&subject=" +
               encodeURIComponent("CNC Information Request from Hosted-Portal!") +
               "&body=" +
-              value;
+              body;
             window.location.href = link;
           }
         }
@@ -74,17 +72,4 @@ contact:
 
       ReactDOM.render(React.createElement(Mail, null), document.getElementById("root"));
 
-      /**
-       * This function is same as PHP's nl2br() with default parameters.
-       *
-       * @param {string} str Input text
-       * @param {boolean} replaceMode Use replace instead of insert
-       * @param {boolean} isXhtml Use XHTML
-       * @return {string} Filtered text
-       */
-      function nl2br(str, replaceMode, isXhtml) {
-        var breakTag = isXhtml ? "<br />" : "<br>";
-        var replaceStr = replaceMode ? "$1" + breakTag : "$1" + breakTag + "$2";
-        return (str + "").replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, replaceStr);
-      }
     </script>
