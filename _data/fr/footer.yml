@@ -3,27 +3,27 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Nos partenaires
-    links:
-    - text: Canadensys
-      href: https://community.canadensys.net/?lang=fr
-    - text: Agriculture et Agroalimentaire Canada
-      href: https://www.agr.gc.ca/fra/
-    - text: Biodiversity Information Standards (TDWG)
-      href: https://www.tdwg.org/  
+  #- name: Nos partenaires
+  #  links:
+    #- text: Canadensys
+    #  href: https://community.canadensys.net/?lang=fr
+    #- text: Agriculture et Agroalimentaire Canada
+    #  href: https://www.agr.gc.ca/fra/
+    #- text: Biodiversity Information Standards (TDWG)
+    #  href: https://www.tdwg.org/
 
   - name: Contactez-nous
-    description: | # Can be Markdown
-      * aafc.cbif-scib.aac@canada.ca
-    connectIcons: true
+    #description: | # Can be Markdown
+      #* aafc.cbif-scib.aac@canada.ca
+    #connectIcons: true
     
-  - name: Notre logo
-    description: | # Can be Markdown
-      Icône réalisée par [Freepik](https://www.freepik.com) à partir de [Flaticon](https://www.flaticon.com/)
+  # - name: Notre logo
+  #  description: | # Can be Markdown
+  #    Icône réalisée par [Freepik](https://www.freepik.com) à partir de [Flaticon](https://www.flaticon.com/)
 
-  - name: Avis
+  - name: Modalités d'utilisation
     description: | # Can be Markdown
-      [Avis](avis)
+      [Modalités d'utilisation](avis)
 
   # EXAMPLE
   #- name: Group name

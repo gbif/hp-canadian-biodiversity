@@ -1,26 +1,26 @@
 ---
 lang-ref: avis
 title: Terms and Conditions
-description: Terms and Conditions of the Canadian Biodiversity Information Facility (CBIF)
+description: Terms and Conditions of the Mobilization of Biological Collections (BioMob)
 background: /assets/images/sergey-pesterev-tJnqdD5sO_M-unsplash.jpg
 imageLicense: |
   Photo by [Sergey Pesterev](https://unsplash.com/@sickle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 height: 70vh
 ---
 
-Materials on this website were produced and/or compiled by the Canadian Biodiversity Information Facility (CBIF) for the purpose of providing Canadians with direct access to information about the programs and services offered by the Government of Canada.
+Materials on this website were produced and/or compiled by the Mobilization of Biological Collections (BioMob) for the purpose of providing Canadians with direct access to information about the programs and services offered by the Government of Canada.
 
 The material on this site is covered by the provisions of the Copyright Act, by Canadian laws, policies, regulations and international agreements. Such provisions serve to identify the information source and, in specific instances, to prohibit reproduction of materials without written permission.
 
 ## Copyright/Permission to Reproduce
 ### Non-Commercial Reproduction
-Information on this site has been posted with the intent that it be readily available for personal and public non-commercial use and may be reproduced, in part or in whole and by any means, without charge or further permission from CBIF.
+Information on this site has been posted with the intent that it be readily available for personal and public non-commercial use and may be reproduced, in part or in whole and by any means, without charge or further permission from BioMob.
 
 We ask only that:
 
 - Users exercise due diligence in ensuring the accuracy of the materials reproduced;
-- CBIF be identified as the source department; and,
-- The reproduction is not represented as an official version of the materials reproduced, nor as having been made, in affiliation with or with the endorsement of CBIF.
+- BioMob be identified as the source department; and,
+- The reproduction is not represented as an official version of the materials reproduced, nor as having been made, in affiliation with or with the endorsement of BioMob.
 
 ### Commercial Reproduction
 Reproduction of multiple copies of materials on this site, in whole or in part, for the purposes of commercial redistribution is prohibited except with written permission from the Government of Canada's copyright administrator, Public Works and Government Services Canada (PWGSC). Through the permission granting process, PWGSC helps ensure individuals/organizations wishing to reproduce Government of Canada materials for commercial purposes have access to the most accurate, up-to-date versions. To obtain permission to reproduce materials on this site for commercial purposes please contact:
@@ -39,15 +39,15 @@ Some of the materials and graphical elements found on Government of Canada websi
 To obtain information concerning copyright ownership and restrictions on reproduction on this site, please contact us.
 
 ## Privacy Notices
-The Government of Canada and CBIF are committed to providing visitors with websites that respect their privacy. This page summarizes the privacy policy and practices on CBIF's website.
+The Government of Canada and BioMob are committed to providing visitors with websites that respect their privacy. This page summarizes the privacy policy and practices on BioMob's website.
 
-- CBIF web pages do not automatically gather any specific personal information from you, such as your name, phone number or e-mail address. We would only obtain this type of information if you supply it by sending us an e-mail or registering in a secure portion of the site.
+- BioMob web pages do not automatically gather any specific personal information from you, such as your name, phone number or e-mail address. We would only obtain this type of information if you supply it by sending us an e-mail or registering in a secure portion of the site.
 - All personal information created, held or collected by this department is protected under the federal _Privacy Act_. This means that at any point of collection you will be asked for consent to collect your information, and you will be informed of the purpose for which it is being collected and how to exercise your right of access to that information.
-- CBIF employs software programs to monitor network traffic to identify unauthorized attempts to upload or change information, or otherwise cause damage. This software receives and records the Internet Protocol (IP) address of the computer that has contacted our website, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected.
-- CBIF does not normally use "cookies" to track how our visitors use this site or to determine sites previously visited. The system will notify you before any cookies are used so that you may refuse them. (A "cookie" is a file that may be placed on your hard drive without your knowledge by a website to allow it to monitor your use of the site.)
-- Information on individual visitors is used by CBIF employees who need to know the information in order to respond to your request or to ensure the security of this system. We only share the information you give us with another government department if your inquiry relates to that department. We do not use the information to create individual profiles, nor do we disclose this information to anyone outside the federal government.
+- BioMob employs software programs to monitor network traffic to identify unauthorized attempts to upload or change information, or otherwise cause damage. This software receives and records the Internet Protocol (IP) address of the computer that has contacted our website, the date and time of the visit and the pages visited. We make no attempt to link these addresses with the identity of individuals visiting our site unless an attempt to damage the site has been detected.
+- BioMob does not normally use "cookies" to track how our visitors use this site or to determine sites previously visited. The system will notify you before any cookies are used so that you may refuse them. (A "cookie" is a file that may be placed on your hard drive without your knowledge by a website to allow it to monitor your use of the site.)
+- Information on individual visitors is used by BioMob employees who need to know the information in order to respond to your request or to ensure the security of this system. We only share the information you give us with another government department if your inquiry relates to that department. We do not use the information to create individual profiles, nor do we disclose this information to anyone outside the federal government.
 
-Questions or comments regarding this policy, or the administration of the _Privacy Act_ in CBIF may be directed to the Privacy Co-ordinator by e-mail, [CBIF-scib@agr.gc.ca](mailto:CBIF-scib@agr.gc.ca). If you are not satisfied with our response to your privacy concern, you may wish to contact the [Office of the Privacy Commissioner](http://www.privcom.gc.ca/index_e.asp).
+Questions or comments regarding this policy, or the administration of the _Privacy Act_ in BioMob may be directed to the Privacy Co-ordinator by e-mail, [CBIF-scib@agr.gc.ca](mailto:CBIF-scib@agr.gc.ca). If you are not satisfied with our response to your privacy concern, you may wish to contact the [Office of the Privacy Commissioner](http://www.privcom.gc.ca/index_e.asp).
 
 ## Conditions for Use of Data
 ### Disclaimers
