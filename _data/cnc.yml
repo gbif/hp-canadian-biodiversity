@@ -3,10 +3,79 @@ description:
   preTitle: preTitle  # optional
   title: Title
   markdownContent: |      # required
-    Some interesting information...
+    The [Canadian National Collection of Insects, Arachnids and Nematodes (CNC)](https://agriculture.canada.ca/en/scientific-collaboration-and-research-agriculture/agriculture-and-agri-food-research-centres-and-collections/canadian-national-collection-insects-arachnids-and-nematodes-cnc)
+    of Agriculture and Agri-Food Canada is one of the five largest collections of its kind in the world.
+    It contains over 17 million specimens. The Collection is housed at the Ottawa Research and Development Centre in the
+    K.W. Neatby Building on the historic Central Experimental Farm in Ottawa, Ontario.
+    ...
 
 
-      [CNC website](https://agriculture.canada.ca/en/scientific-collaboration-and-research-agriculture/agriculture-and-agri-food-research-centres-and-collections/canadian-national-collection-insects-arachnids-and-nematodes-cnc)
+    [CNC website](https://agriculture.canada.ca/en/scientific-collaboration-and-research-agriculture/agriculture-and-agri-food-research-centres-and-collections/canadian-national-collection-insects-arachnids-and-nematodes-cnc)
+
+search:
+  markdownContent: |
+
+    ## Search
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script type="text/javascript" src="https://react-components.gbif-staging.org/lib/gbif-react-components.js"></script>
+
+    <div id="root">
+    <script>
+
+    //const {TabList, Tab, TabPanel } = gbifReactComponents.Tabs;
+    </script>
+    <Tabs defaultActiveId="table">
+        <TabList aria-labelledby="My tabs">
+          <Tab tabId="table">Table</Tab>
+          <Tab tabId="map">Map</Tab>
+          <Tab tabId="gallery">Gallery</Tab>
+        </TabList>
+        <TabPanel tabId="table">This component still needs accesability considerations. There seem to be great disagreement on the most friendly implementation of tabs</TabPanel>
+        <TabPanel tabId="map">Tab content 2</TabPanel>
+        <TabPanel tabId="gallery">Tab content 3</TabPanel>
+      </Tabs>
+    </div>
+    <div id="search"></div>
+
+    <---
+    <script>
+
+
+      const e = React.createElement;
+      class Search extends React.Component {
+
+          render() {
+            return e(
+              gbifReactComponents.Tabs,
+              {defaultActiveId:"quickSearch"},
+              [e(
+                gbifReactComponents.TabList,
+                {},
+                [
+                  e(
+                    gbifReactComponents.Tab,
+                    {
+                      tabId:"quickSearch",
+                      primary: 'primary',
+                      text: "text",
+                    },
+                    "hello"
+                  )
+                ]
+              )]
+
+
+                //Tab: [ {tabId:'quick_search', text:'Quick Search'}]
+
+             );
+          }
+        }
+      ReactDOM.render(e(Search), document.getElementById("search"));
+
+
+    </script> -->
 
 contact:
   preTitle: preTitle  # optional
