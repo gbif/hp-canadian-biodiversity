@@ -37,7 +37,7 @@ remote_theme: gbif/jekyll-hp-base-theme
 
 # for usage in the standard privacy layout
 privacy:
-  name: the name should be filled
+  name: BioMob
   domain: your-domain.org
   contactEmail: contact@your-domain.org
   helpdeskEmail: helpdesk@your-domain.org
@@ -50,7 +50,7 @@ siteMeasurements:
 
 algae:
   # latestPostLimit: 2
-  logo: /assets/images/butterfly_logo.svg  # Logo in navbar, will be displayed with 28px height
+  logo: /assets/images/DINA_logo_only.png  # Logo in navbar, will be displayed with 28px height
   logoAndTitle: true           # include the title next to the logo
   archive_permalink: /news/       # Permalink of page using archive.html layout, required when using post categories
   style:

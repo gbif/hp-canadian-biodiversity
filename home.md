@@ -1,8 +1,8 @@
 ---
 layout: languageSplash
 preTitle: 
-title: CBIF / SCIB
-description: Canadian Biodiversity Information Facility / Système canadien d'information sur la biodiversité
+title: BioMob
+description: Mobilization of Biological Collections / Mobilisation des collections biologiques
 permalink: /
 background: /assets/images/guy-tsror-ibpr-RbpRG8-unsplash.jpg
 imageLicense: |
@@ -11,4 +11,4 @@ imageLicense: |
 
 # Welcome / Bienvenue
 
-Canadian Biodiversity Information Facility / Système canadien d'information sur la biodiversité
+Mobilization of Biological Collections / Mobilisation des collections biologiques
