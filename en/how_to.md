@@ -10,7 +10,7 @@ height: 70vh
 toc: true
 
 ---
-## Finding data on the CBIF portal
+## Finding data on the BioMob portal
 
 ...
 

@@ -9,7 +9,7 @@ imageLicense: |
 height: 70vh
 toc: true
 ---
-## Trouver des données sur le portail CBIF
+## Trouver des données sur le portail BioMob
 
 ...
 

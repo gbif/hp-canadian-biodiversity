@@ -1,7 +1,7 @@
 ---
 lang-ref: about
 title: About
-description: About the Canadian Biodiversity Information Facility (CBIF)
+description: About the Mobilization of Biological Collections (BioMob)
 background: /assets/images/sergey-pesterev-tJnqdD5sO_M-unsplash.jpg
 imageLicense: |
   Photo by [Sergey Pesterev](https://unsplash.com/@sickle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

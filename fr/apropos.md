@@ -1,7 +1,7 @@
 ---
 lang-ref: about
 title: À propos
-description: À propos du Système canadien d'information sur la biodiversité (SCIB)
+description: À propos de la Mobilisation des collections biologiques (BioMob)
 background: /assets/images/sergey-pesterev-tJnqdD5sO_M-unsplash.jpg
 imageLicense: |
   Photo by [Sergey Pesterev](https://unsplash.com/@sickle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

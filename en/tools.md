@@ -1,7 +1,7 @@
 ---
 lang-ref: tools
 title: Tools
-description: CBIF provides the following tools to help users find the information they need.
+description: BioMob provides the following tools to help users find the information they need.
 background: /assets/images/chelsey-faucher-TqVPWJE_a4E-unsplash.jpg
 imageLicense: |
   Photo by [Chelsey Faucher](https://unsplash.com/@chalex95?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
