@@ -1,0 +1,14 @@
+description:
+  description: description
+  preTitle: preTitle  # optional
+  title: Title
+
+  markdownContent: |      # required
+    ...
+
+search:
+  features:
+    - title: Browse
+      description: Browse the collection
+      href: /en/data?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbImRhbyJdfX0%3D&from=0&view=TABLE
+
