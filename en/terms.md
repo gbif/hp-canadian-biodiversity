@@ -47,7 +47,7 @@ The Government of Canada and BioMob are committed to providing visitors with web
 - BioMob does not normally use "cookies" to track how our visitors use this site or to determine sites previously visited. The system will notify you before any cookies are used so that you may refuse them. (A "cookie" is a file that may be placed on your hard drive without your knowledge by a website to allow it to monitor your use of the site.)
 - Information on individual visitors is used by BioMob employees who need to know the information in order to respond to your request or to ensure the security of this system. We only share the information you give us with another government department if your inquiry relates to that department. We do not use the information to create individual profiles, nor do we disclose this information to anyone outside the federal government.
 
-Questions or comments regarding this policy, or the administration of the _Privacy Act_ in BioMob may be directed to the Privacy Co-ordinator by e-mail, [CBIF-scib@agr.gc.ca](mailto:CBIF-scib@agr.gc.ca). If you are not satisfied with our response to your privacy concern, you may wish to contact the [Office of the Privacy Commissioner](http://www.privcom.gc.ca/index_e.asp).
+Questions or comments regarding this policy, or the administration of the _Privacy Act_ in BioMob may be directed to the Privacy Co-ordinator by e-mail, [canada.gbif@gmail.com](mailto:canada.gbif@gmail.com). If you are not satisfied with our response to your privacy concern, you may wish to contact the [Office of the Privacy Commissioner](http://www.privcom.gc.ca/index_e.asp).
 
 ## Conditions for Use of Data
 ### Disclaimers
