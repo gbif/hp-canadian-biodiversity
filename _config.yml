@@ -39,8 +39,8 @@ remote_theme: gbif/jekyll-hp-base-theme
 privacy:
   name: BioMob
   domain: your-domain.org
-  contactEmail: contact@your-domain.org
-  helpdeskEmail: helpdesk@your-domain.org
+  contactEmail: canada.gbif@gmail.com
+  helpdeskEmail: canada.gbif@gmail.com
 
 # The text for the terms can be changed by adding translations for 'terms', 'acceptTerms' and 'rejectTerms' in `/_data/translations.yml`.
 siteMeasurements:
