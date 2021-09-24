@@ -15,3 +15,6 @@ acceptTerms:
 rejectTerms:
   en: 'Reject'
   fr: 'Rejeter'
+home:
+  en: 'Home'
+  fr: 'Page d''accueil'

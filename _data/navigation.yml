@@ -17,6 +17,14 @@
     href: /en/collections/cnc
   - text: National Collection of Vascular Plants (DAO)
     href: /en/collections/dao
+- text: Literature
+  menu:
+  - text: Literature all
+    href: /en/literature
+  - text: Literature from
+    href: /en/literature/from
+  - text: Literature about
+    href: /en/literature/about
 - text: Taxonomy
   href: /en/taxonomy
 - text: News
