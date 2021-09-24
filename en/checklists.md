@@ -1,6 +1,6 @@
 ---
 layout: page
-lang-ref: taxonomy
+lang-ref: checklists
 title: Checklists
 description: Available Checklists
 background: /assets/images/sergey-pesterev-tJnqdD5sO_M-unsplash.jpg
