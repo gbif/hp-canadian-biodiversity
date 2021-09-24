@@ -13,7 +13,7 @@ composition:
   - type: heroImage
   - type: markdown
     data: cnc.description
-  - type: stats
+  - type: markdown
     data: cnc.search
   - type: markdown
     data: cnc.contact

@@ -13,10 +13,9 @@ description:
     [CNC website](https://agriculture.canada.ca/en/scientific-collaboration-and-research-agriculture/agriculture-and-agri-food-research-centres-and-collections/canadian-national-collection-insects-arachnids-and-nematodes-cnc)
 
 search:
-  features:
-    - title: Browse
-      description: Browse the collection
-      href: /en/data?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbIkNOQyJdfX0%3D&from=0&view=TABLE
+  markdownContent: |
+
+    [Browse this collection](/en/data?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbIkNOQyJdfX0%3D&from=0&view=TABLE){: .button .is-primary .browse-button}
 
 contact:
   preTitle: preTitle  # optional

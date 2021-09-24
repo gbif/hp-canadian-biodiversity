@@ -10,7 +10,7 @@ height: 70vh
 layout: compose
 composition:
   - type: heroImage
-  - type: stats
+  - type: markdown
     data: dao.search
   - type: markdown
     data: cnc.contact
