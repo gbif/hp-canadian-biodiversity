@@ -19,4 +19,6 @@ var siteConfig = {
     ]
   },
   occurrenceSearchTabs: ['MAP', 'TABLE', 'GALLERY', 'DATASETS'], // possible values are TABLE, MAP, GALLERY, DATASETS
+  excludeFilters: ['country'],
+  highlightedFilters: ['occurrenceStatus', 'collectionCode', 'taxonKey', 'year', 'q']
 };
