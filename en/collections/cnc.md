@@ -21,6 +21,6 @@ composition:
   - type: markdown
     data: cnc.search
   - type: pageMarkdown
----
 
-{ % include_relative contact_collections.md %}
+---
+{% include_relative contact_collections.md %}
