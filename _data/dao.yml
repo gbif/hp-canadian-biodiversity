@@ -11,3 +11,34 @@ search:
 
     [Browse this collection](/en/data?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbImRhbyJdfX0%3D&from=0&view=TABLE){: .button .is-primary .browse-button}
 
+contact:
+  markdownContent: |
+    {{ page.title }}
+    ## Contact us
+
+    <div>
+      <textarea id="msg" name="msg" class="email-textarea"></textarea>
+      {% for contact in page.contacts %}
+        <button class="button" onclick="handleClick({{contact.email}}>{{ contact.name }}</button>
+      {% endfor %}
+
+      <script>
+        function handleClick(recipient) {
+          console.log(recipient);
+          //var body = encodeURIComponent(window.getElementbyId("msg").text);
+          if (False) {
+          //if (body != "") {
+            var link =
+              "mailto:" +
+              recipient+
+              "?cc=myCCaddress@example.com" +
+              "&subject=" +
+              encodeURIComponent("CNC Information Request from Hosted-Portal!") +
+              "&body=" +
+              body;
+            window.location.href = link;
+          }
+        }
+      </script>
+    </div>
+
