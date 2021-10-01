@@ -1,10 +1,9 @@
-description:
-  description: description
-  preTitle: preTitle  # optional
-  title: Title
-
+intro:
   markdownContent: |      # required
-    ...
+
+    [Contact the National Collection of Vascular Plants](mailto: aafc.herbier-DAO-herbarium.aac@agr.gc.ca)
+
+
 
 search:
   markdownContent: |
@@ -13,11 +12,11 @@ search:
 
 contact:
   markdownContent: |
-    {{ page.title }}
+
     ## Contact us
 
     <div>
-      <textarea id="msg" name="msg" class="email-textarea"></textarea>
+      <textarea id="msg" name="msg" class="email-textarea">{{ site.algae.archive_permalink }}</textarea>
       {% for contact in page.contacts %}
         <button class="button" onclick="handleClick({{contact.email}}>{{ contact.name }}</button>
       {% endfor %}
