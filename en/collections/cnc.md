@@ -9,12 +9,18 @@ imageLicense: |
 height: 70vh
 layout: compose
 toc: true
+contacts:
+ - name: Contact A
+   email: contactA@example.com
+ - name: Contact B
+   email: contactB@example.com
 composition:
   - type: heroImage
   - type: markdown
     data: cnc.description
   - type: markdown
     data: cnc.search
-  - type: markdown
-    data: cnc.contact
+  - type: pageMarkdown
 ---
+
+{ % include_relative contact_collections.md %}

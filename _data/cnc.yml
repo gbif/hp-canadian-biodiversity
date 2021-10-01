@@ -41,7 +41,6 @@ contact:
         }
 
         handleClick(recipient) {
-          console.log(recipient);
           var body = encodeURIComponent(this.state.value);
           if (body != "") {
             var link =
