@@ -24,7 +24,6 @@ contact:
     ## Contact us
     <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <script type="text/javascript" src="https://react-components.gbif-staging.org/lib/gbif-react-components.js"></script>
 
     <div id="root"></div>
     <script>
@@ -41,11 +40,12 @@ contact:
           this.setState({ value: event.target.value });
         }
 
-        handleClick() {
+        handleClick(recipient) {
           var body = encodeURIComponent(this.state.value);
           if (body != "") {
             var link =
-              "mailto:melanie.belisle-leclerc@agr.gc.ca" +
+              "mailto:" +
+              recipient+
               "?cc=myCCaddress@example.com" +
               "&subject=" +
               encodeURIComponent("CNC Information Request from Hosted-Portal!") +
@@ -67,12 +67,20 @@ contact:
               className: "email-textarea"
             }),
             React.createElement(
-              gbifReactComponents.Button,
+              "button",
               {
                 className: "button is-primary",
-                onClick: this.handleClick.bind(this)
+                onClick: this.handleClick.bind(this, "recipientA@example.com")
               },
-              "Send"
+              "Send to A"
+            ),
+            React.createElement(
+              "button",
+              {
+                className: "button",
+                onClick: this.handleClick.bind(this, "recipientB@example.com")
+              },
+              "Send to B"
             )
           ]);
         }
