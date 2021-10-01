@@ -41,6 +41,7 @@ contact:
         }
 
         handleClick(recipient) {
+          console.log(recipient);
           var body = encodeURIComponent(this.state.value);
           if (body != "") {
             var link =
@@ -70,7 +71,8 @@ contact:
               "button",
               {
                 className: "button is-primary",
-                onClick: this.handleClick.bind(this, "recipientA@example.com")
+                value: "recipientA@example.com",
+                onClick: e => this.handleClick(e.target.value)
               },
               "Send to A"
             ),
@@ -78,7 +80,8 @@ contact:
               "button",
               {
                 className: "button",
-                onClick: this.handleClick.bind(this, "recipientB@example.com")
+                value: "recipientB@example.com",
+                onClick: e => this.handleClick(e.target.value)
               },
               "Send to B"
             )
