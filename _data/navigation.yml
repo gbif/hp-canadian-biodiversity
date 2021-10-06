@@ -27,6 +27,9 @@
     href: /en/literature/about
 - text: Checklists
   href: /en/checklists
+  menu:
+    - text: Update on the Brassicaceae Checklist
+      href: /en/checklists/update_on_brassicaceae_checklist
 - text: News
   href: /en/news/
 - text: How-to
