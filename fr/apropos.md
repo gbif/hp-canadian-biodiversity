@@ -29,4 +29,4 @@ spécimens et au séquençage de l’ADN augmentera considérablement. Ce travai
 changements climatiques, de même que l’identification et la prévention rapides des menaces pour l’agriculture.
 
 
-[Explorez les données](/fr/data){: .button .is-primary} [Explorez les outils](/fr/outils){: .button} [Canada sur GIBIF](https://www.gbif.org/fr/country/CA/summary){: .button}
+[Explorez les données](/fr/data){: .button .is-primary} [Explorez les outils](/fr/outils){: .button} [Canada sur GBIF](https://www.gbif.org/fr/country/CA/summary){: .button}
