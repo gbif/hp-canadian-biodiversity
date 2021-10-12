@@ -10,18 +10,35 @@ height: 70vh
 
 ## Integrated Taxonomic Information System (ITIS)
 
-[Integrated Taxonomic Information System (ITIS)](https://www.cbif.gc.ca/eng/home/?id=1381347793621) is a catalogue of common and scientific names and their synonyms that will eventually include all species found in Canada, the United States and Mexico.
+[ITIS](https://www.itis.gov/) is a catalogue of common and scientific names and their synonyms of species of North 
+America and the world.
 
-Search result pages for individual species include the species nomenclature, synonyms, common names and the taxonomic hierarchy (genus, order, family, etc.). In addition, links to resources automatically search on the pertinent terms for the species you select.
+Search result pages for individual species include the species nomenclature, synonyms, common names and the taxonomic 
+hierarchy (genus, order, family, etc.). In addition, links to resources automatically search on the pertinent terms for 
+the species you select.
 
-## Species Access Network
+## Canadensys
 
-[Species Access Network](https://www.cbif.gc.ca/eng/home/?id=1381348141137) is the Canadian component of a global project to provide Internet access to information associated with the billions of specimens housed in the world's natural history collections. The Canadian network currently incorporates collection records from several repositories; many more will be added over the next few years.
+[Canadensys](https://community.canadensys.net/) makes biodiversity information freely and openly available to everyone. 
+We are a network of researchers, collectors, curators, information technologists, students, and educators that shares 
+data on the occurrence and identity of plant, animal, and fungi, and other species in Canada.
 
-Users can search these collections by species name, source collection, collector, or location.
+## Barcode of Life Data System (BOLD)
+[Bold](http://www.boldsystems.org/) is a cloud-based data storage and analysis platform developed at the Centre for 
+Biodiversity Genomics in Canada. It consists of four main modules, a data portal, an educational portal, a registry of 
+BINs (putative species), and a data collection and analysis workbench.
 
-If you have a specimen database you would like added to Species Access Network, please contact aafc.cbif-scib.aac@canada.ca.
+## Government of Canada: Canadian Biodiversity
 
-## Species Bank
+[Canadian Biodiversity](https://www.canada.ca/en/services/environment/wildlife-plants-species/biodiversity.html):
+Variety of genes, species and ecosystems that keep the living world healthy.
 
-[Species Bank](https://www.cbif.gc.ca/eng/home/?id=1370403266204) includes a collection of electronic resources that provide detailed information to support the identification of Canadian species including descriptive information, photographs, distribution maps, and more.
+## Government of Canada: Open Data Portal
+
+[Open Data Portal](https://open.canada.ca/en/open-data):
+Looking for data about Government of Canada services, financials, national demographic information or high resolution 
+maps? Discover that and more through our open data portal, your one-stop shop for Government of Canada open datasets.
+
+## Government of Canada: Open Maps 
+[Open Maps](https://open.canada.ca/en/open-maps) provides access to the Government of Canada’s geospatial information. 
+You can combine, visualize, and analyze geospatial data and collaborate with other Canadians.
