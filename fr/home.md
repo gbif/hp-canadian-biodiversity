@@ -2,7 +2,7 @@
 lang-ref: home
 layout: home
 title: Mobilisation des collections biologiques (BioMob)
-description: Ce site fournit des outils pour aider aux utilisateurs à trouver les informations dont ils ont besoin.
+description: Ce site fournit les données générées pendant le projet ainsi que des ressources associées.
 background: /assets/images/guy-tsror-ibpr-RbpRG8-unsplash.jpg
 imageLicense: |
   Photo by [Guy Tsror](https://unsplash.com/@guyts?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
