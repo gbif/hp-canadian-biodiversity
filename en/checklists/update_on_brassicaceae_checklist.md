@@ -1,5 +1,5 @@
 ---
-layout: documentation
+layout: default
 lang-ref: test
 title: Update on the Brassicaceae Species Checklist
 description: 
