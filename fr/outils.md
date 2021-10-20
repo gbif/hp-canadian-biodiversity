@@ -1,7 +1,7 @@
 ---
 lang-ref: tools
 title: Outils
-description: Le SCIB fournit les outils suivants pour aider les utilisateurs à trouver les informations dont ils ont besoin.
+description: BioMob fournit les outils suivants pour aider les utilisateurs à trouver les informations dont ils ont besoin.
 background: /assets/images/chelsey-faucher-TqVPWJE_a4E-unsplash.jpg
 imageLicense: |
   Photo by [Chelsey Faucher](https://unsplash.com/@chalex95?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
@@ -25,7 +25,9 @@ partager l’information sur les plantes, animaux, champignons et d’autres esp
 
 ## Barcode of Life Data System (BOLD)
 [Bold](http://www.boldsystems.org/) est un system infonuagique de stockage et d'analyse de données développé au _Centre 
-for Biodiversity Genomics_ au Canada.  Il comprend quatre modules principales, un portail de données, un portail éducationnel, un 
+for Biodiversity Genomics_ au Canada. Il comprend quatre modules principales: un portail de données, 
+un portail éducationnel, un registre de _BINs_ (Numéro d'index du code-barres) (espèces putatives), et un logiciel de 
+collecte et d'analyse de données.
 
 ## Gouvernement du Canada: Biodiversité canadienne
 
@@ -35,8 +37,10 @@ Variété de gènes, d’espèces et d’écosystèmes qui assurent la santé du
 ## Gouvernement du Canada: Portail des données ouvertes
 
 [Portail des données ouvertes](https://ouvert.canada.ca/fr/donnees-ouvertes):
-Chercher des données ouvertes qui sont pertinentes aux Canadiens et Canadiennes, apprendre comment travailler avec les 
-jeux de données, voir ce que les citoyens ont fait avec les données ouvertes dans l’ensemble du pays)
+Vous souhaitez obtenir des renseignements sur les services du gouvernement du Canada ou consulter des données 
+financières, des données démographiques nationales ou des cartes à haute résolution? Vous trouverez tout ce dont 
+vous avez besoin et plus encore dans notre Portail de données ouvertes, votre guichet unique pour les jeux de 
+données ouvertes du gouvernement du Canada.
 
 ## Gouvernement du Canada: Cartes ouvertes
 
