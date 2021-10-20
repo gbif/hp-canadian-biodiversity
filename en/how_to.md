@@ -23,8 +23,9 @@ Instructions...
 
 ## Registering as a publisher on GBIF 
 
-See [Become a Publisher]("https://www.gbif.org/become-a-publisher") for more information.
+Visit [Become a Publisher](https://www.gbif.org/become-a-publisher) for more information.
 
 ## Standards
+Visit [Data standards](https://www.gbif.org/standards) for more information.
 
 ## Contact us

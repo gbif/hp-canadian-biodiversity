@@ -1,7 +1,7 @@
 ---
 title:  "De quoi avez-vous le plus besoin de la part du BioMob ?"
 date:   2021-02-09 21:37:12 +0200
-categories: ["SCIB", "demandes de fonctionnalités"]
+categories: ["BioMob", "demandes de fonctionnalités"]
 lang-ref: biomob feature requests
 background: /assets/images/chelsey-faucher-Ncwmm9uVYW0-unsplash.jpg
 imageLicense: |

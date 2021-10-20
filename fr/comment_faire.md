@@ -18,12 +18,14 @@ toc: true
 ...
 
 ## Publier des données sur GBIF
-Directives 
+Directives ...
 
 ## S'inscrire en tant qu'éditeur ou éditrice sur GBIF 
 
-See [Become a Publisher]("https://www.gbif.org/become-a-publisher") for more information.
+Allez sur [Become a Publisher](https://www.gbif.org/fr/become-a-publisher) pour plus d'information.
 
 ## Standards
+
+Allez sur [Standards de donnée](https://www.gbif.org/fr/standards) pour plus d'information.
 
 ## Contactez-nous
