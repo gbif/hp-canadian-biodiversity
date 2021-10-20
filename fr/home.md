@@ -1,4 +1,5 @@
 ---
+permalink: /fr
 lang-ref: home
 layout: home
 title: Mobilisation des collections biologiques (BioMob)
@@ -12,7 +13,13 @@ cta:
     isPrimary: true
   - text: À propos
     href: /fr/apropos
-permalink: /fr
+composition:
+- type: heroImage
+  # data: compose.someFile.someProperty # no data provided, instead page data will be used
+- type: stats
+  data: fr.home.stats
+- type: floatingText
+  data: fr.home.description
 ---
 
 En appui au [Système mondial d'information sur la biodiversité](https://www.gbif.org/fr/), le Canada explore de nouvelles avenues afin d'améliorer l'organisation, l'échange, la mise en corrélation et l'application des données primaires sur les espèces importantes pour les Canadiens. En améliorant notre capacité d'accès à ces données et en facilitant leur utilisation, nous pourrons mieux soutenir la prise de décisions dans les domaines social et économique, notamment en ce qui concerne la conservation de la biodiversité dans des écosystèmes sains, l'utilisation des ressources biologiques dans le respect de l'environnement et la surveillance et la mise en place de mesure de protection contre les ravageurs et les maladies.
