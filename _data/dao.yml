@@ -1,11 +1,16 @@
-intro:
+description:
   markdownContent: |      # required
 
-    Intro...
-
-
+    Agriculture and Agri-Food Canada (AAFC) maintains a National Collection of Vascular Plants,
+    internationally known by the acronym DAO (for Department of Agriculture, Ottawa). This is a
+    premier collection of dried vascular plants. Located on AAFC's Central Experimental Farm,
+    it is the largest collection of its kind in Canada. Properly called a herbarium, it
+    includes 1.5 million irreplaceable specimens protected in a climate-controlled environment.
+    When adequately protected from moisture and pests, dried specimens can last for hundreds of
+    years in the herbarium. This is a tremendous resource that allows identification of plants
+    from anywhere in Canada and supports research on plant classification worldwide.
 
 search:
   markdownContent: |
 
-    [Browse this collection](/en/data?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbImRhbyJdfX0%3D&from=0&view=TABLE){: .button .is-primary .browse-button}
+    [Browse this collection](en/data.html?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbIkRBTyJdfX0%3D&view=TABLE){: .button .is-primary .browse-button}

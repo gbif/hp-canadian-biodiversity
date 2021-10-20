@@ -23,4 +23,7 @@ composition:
   - type: pageMarkdown
 
 ---
-{% include_relative contact_collections.md %}
+
+## Write us
+
+{% include contact_collections.md %}

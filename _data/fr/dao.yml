@@ -1,0 +1,17 @@
+description:
+  markdownContent: |      # required
+
+    C'est Agriculture et Agroalimentaire Canada (AAC) qui maintient l'Herbier des plantes vasculaires,
+    connu à l'échelle mondiale sous le sigle DAO (pour, en Anglais, Department of Agriculture, Ottawa).
+    Il s'agit d'une collection de premier plan de plantes vasculaires séchées. Située à la Ferme expérimentale
+    centrale d'AAC, c'est la plus vaste collection de son type au Canada. Justement appelé herbier, on y
+    trouve 1,5 million de spécimens irremplaçables protégés dans un milieu à ambiance contrôlée. Lorsqu'ils
+    sont bien protégés contre l'humidité et les ravageurs, les spécimens séchés peuvent durer des centaines
+    d'années dans l'herbier. Il s'agit d'une ressource extrêmement précieuse qui permet d'identifier des
+    plantes provenant de partout au Canada et qui appuie des recherches sur la classification des plantes dans
+    le monde entier.
+
+search:
+  markdownContent: |
+
+    [Explorez la collection](/fr/data?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbIkRBTyJdfX0%3D&view=TABLE){: .button .is-primary .browse-button}

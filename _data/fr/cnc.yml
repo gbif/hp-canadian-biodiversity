@@ -1,0 +1,15 @@
+description:
+  markdownContent: |      # required
+    La Collection nationale canadienne d'insectes, d'arachnides et de nematodes (CNC)
+    d'Agriculture et Agroalimentaire Canada est l'une des cinq plus grandes collections
+    du genre dans le monde. Elle contient plus de 17 millions de spécimens. Cette
+    collection se trouve au Centre de recherche et de développement d’Ottawa dans
+    l'édifice K.W. Neatby, à la Ferme expérimentale centrale d'Ottawa, en Ontario.
+
+
+    Visitez le [site de la CNC](https://agriculture.canada.ca/fr/collaboration-scientifique-agriculture/centres-recherche-collections-lagriculture-lagroalimentaire/collection-nationale-canadienne-dinsectes-darachnides-nematodes-cnc)
+
+search:
+  markdownContent: |
+
+    [Explorez la collection](/fr/data?filter=eyJtdXN0Ijp7ImNvbGxlY3Rpb25Db2RlIjpbIkNOQyJdfX0%3D&from=0&view=TABLE){: .button .is-primary .browse-button}

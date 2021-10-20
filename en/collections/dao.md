@@ -16,10 +16,13 @@ contacts:
 composition:
  - type: heroImage
  - type: markdown
-   data: dao.intro
+   data: dao.description
  - type: markdown
    data: dao.search
  - type: pageMarkdown
 
 ---
-{% include_relative contact_collections.md %}
+
+## Write us
+
+{% include contact_collections.md %}
