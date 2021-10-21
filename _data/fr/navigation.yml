@@ -21,9 +21,9 @@
   menu:
   - text: Littérature toute
     href: /fr/litterature
-  - text: Littérature de
+  - text: Littérature provenant du Canada
     href: /fr/litterature/de
-  - text: Littérature à propos
+  - text: Littérature au sujet du Canada
     href: /fr/litterature/apropos
 - text: Listes d'espèces
   href: /fr/taxonomie
@@ -31,5 +31,3 @@
   href: /fr/nouvelles/
 - text: Comment faire
   href: /fr/comment_faire
-- text: English
-  href: /en/

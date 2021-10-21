@@ -21,9 +21,9 @@
   menu:
   - text: Literature all
     href: /en/literature
-  - text: Literature from
+  - text: Literature from Canada
     href: /en/literature/from
-  - text: Literature about
+  - text: Literature about Canada
     href: /en/literature/about
 - text: Checklists
   href: /en/checklists
@@ -36,5 +36,4 @@
   href: /en/news/
 - text: How-to
   href: /en/how_to
-- text: Français
-  href: /fr/
+

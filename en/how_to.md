@@ -1,4 +1,5 @@
 ---
+lang-ref: howto
 layout: heroImage
 permalink: en/how_to # the documentation layout requires you to fill the permalink for it to be highlighted in the side navigation
 title: "How-to"
