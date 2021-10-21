@@ -1,0 +1,21 @@
+---
+layout: base
+description: Template for collections pages
+compose:
+    - type: heroImage
+    - type: pageMarkdown
+# contacts are required on page front matter when using this layout
+## e.g.
+#    contacts:
+#     - name: Contact A
+#       email: contactA@example.com
+#     - name: Contact B
+#       email: contactB@example.com
+
+---
+
+{{ content }}
+
+## Write us
+
+{% include contact_collections.md %}
