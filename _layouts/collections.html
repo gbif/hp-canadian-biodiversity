@@ -1,7 +1,7 @@
 ---
-layout: base
+layout: default
 description: Template for collections pages
-compose:
+composition:
     - type: heroImage
     - type: pageMarkdown
 # contacts are required on page front matter when using this layout
@@ -14,8 +14,10 @@ compose:
 
 ---
 
+{% assign composition = page.composition | default: layout.composition %}
+
 {{ content }}
 
-## Write us
+<h2>{{ site.data.translations.writeUs[page.lang] }}</h2>
 
 {% include contact_collections.md %}

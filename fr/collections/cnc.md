@@ -7,8 +7,8 @@ background: assets/images/edgar-chaparro-3bq0o08flG0-unsplash.jpg
 imageLicense: |
   Photo by [Edgar Chaparro](https://unsplash.com/@echaparro) on [Unsplash](https://unsplash.com)
 height: 70vh
-layout: compose
-toc: true
+layout: collections
+toc: false
 contacts:
  - name: Contact A
    email: contactA@example.com
@@ -24,6 +24,3 @@ composition:
 
 ---
 
-## Écrivez-nous
-
-{% include contact_collections.md %}

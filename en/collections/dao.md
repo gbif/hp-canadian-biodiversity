@@ -7,7 +7,7 @@ background: assets/images/christopher-lozano-QehxpJJHcIc-unsplash.jpg
 imageLicense: |
   Photo by [Christopher Lozano]("https://unsplash.com/@clozano84?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") on [Unsplash]("https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")
 height: 70vh
-layout: compose
+layout: collections
 contacts:
  - name: Contact A
    email: contactA@example.com
@@ -22,7 +22,3 @@ composition:
  - type: pageMarkdown
 
 ---
-
-## Write us
-
-{% include contact_collections.md %}
