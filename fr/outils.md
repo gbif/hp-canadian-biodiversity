@@ -19,7 +19,7 @@ classification taxonomique de l'espèce (genre, ordre, famille, etc.). Ils étab
 plusieurs autres moteurs de recherche. Vous pouvez 
 [consulter le catalogue d'ITIS](https://www.gbif.org/fr/species/101683523?root=true)
 
-Le catalogue est aussi disponible [ici](https://www.itis.gov/).
+Le catalogue est aussi disponible [ici](https://www.itis.gov/) (en anglais seulement).
 
 ## Canadensys
 
