@@ -17,15 +17,10 @@
     requestButton = document.getElementById("requestIds");
     copyButton = document.getElementById("copyIds");
     filter = getFilter();
-    if (filter) {
-        copyButton.disabled = false;
-        if (hasAAFCSingleCollectionFilter(filter)) {
-            requestButton.disabled = false;
-        } else {
-            requestButton.disabled = true;
-        }
+    if (filter && hasAAFCSingleCollectionFilter()) {
+        requestButton.disabled = false;
     } else {
-        copyButton.disabled = true;
+        requestButton.disabled = true;
     }
  }
 
