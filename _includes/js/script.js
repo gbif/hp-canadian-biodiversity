@@ -9,7 +9,7 @@
  function hasAAFCSingleCollectionFilter() {
     return (filter.hasOwnProperty('collectionCode') &&
         (filter.collectionCode.length == 1) &&
-        (['CNC', 'DAO'].includes(filter.collectionCode[0].toUpperCase())));
+        (['AGRC', 'CNC', 'DAO', 'DAOMC', 'DAOM', 'PGRC'].includes(filter.collectionCode[0].toUpperCase())));
  }
 
  function updateGetIdButtons() {
@@ -23,11 +23,13 @@
  }
 
 
-async function getIds(buttonID){
+async function getIds(buttonID) {
+  console.log(filter)
+  // still buggy with year range
+  if (filter && filter.hasOwnProperty('year')) convertFilterYears();
   let jqueryString = $.param(filter, true);
+  console.log(jqueryString)
   let apiString = 'https://api.gbif.org/v1/occurrence/search?' + jqueryString + '&limit=100';
-  // still need to convert year range when relevant
-  // other bugs with years
   console.log(apiString);
   let response = await fetch(apiString);
   let data = await response.json();
@@ -36,14 +38,24 @@ async function getIds(buttonID){
     let recipient = getCollectionEmail(filter.collectionCode[0]);
     createMailerMessage(recipient, ids.toString());
   } else {
-    //this part not working
+    //this part not working with alert. Need to fix document focus issue
     navigator.clipboard.writeText(ids);
     //alert("ID list copied to clipboard.");
   }
  }
 
- function convertYearRange(yearRangeObject) {
-    return Array(end - start + 1).fill().map((_, idx) => start + idx)
+function convertFilterYears() {
+  var years = []
+  filter.year.forEach(e => {
+    if (e.type === 'equals') years.push(e.value);
+    if (e.type === 'range') {
+      let end = e.value.lte;
+      let start = e.value.gte;
+      let individualYears = Array(end - start + 1).fill().map((_, idx) => start + idx)
+      years.concat(individualYears);
+    }
+  });
+  filter.year = years;
  }
 
 function createMailerMessage(recipient, idList) {
