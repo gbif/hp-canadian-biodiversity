@@ -9,7 +9,7 @@
  function hasAAFCSingleCollectionFilter() {
     return (filter.hasOwnProperty('collectionCode') &&
         (filter.collectionCode.length == 1) &&
-        (['CNC', 'DAO'].includes(filter.collectionCode[0])));
+        (['CNC', 'DAO'].includes(filter.collectionCode[0].toUpperCase())));
  }
 
  function updateGetIdButtons() {
@@ -31,14 +31,14 @@ async function getIds(buttonID){
   console.log(apiString);
   let response = await fetch(apiString);
   let data = await response.json();
-  const ids = data.results.map(d => d.key);
+  const ids = await data.results.map(d => d.key);
   if (buttonID == "requestIds") {
     let recipient = getCollectionEmail(filter.collectionCode[0]);
     createMailerMessage(recipient, ids.toString());
   } else {
     //this part not working
     navigator.clipboard.writeText(ids);
-    alert("ID list copied to clipboard.");
+    //alert("ID list copied to clipboard.");
   }
  }
 
