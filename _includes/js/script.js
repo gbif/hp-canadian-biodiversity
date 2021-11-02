@@ -23,25 +23,23 @@
  }
 
 
-function get_ids(buttonID){
-    let jqueryString = $.param(filter, true);
-    let apiString = 'https://api.gbif.org/v1/occurrence/search?' + jqueryString + '&limit=100';
-    // still need to convert year range when relevant
-    // other bugs with years
-    console.log(apiString);
-    fetch(apiString)
-    .then(response => response.json())
-    .then(data=> {
-      const ids = data.results.map(d => d.key);
-      if (buttonID == "requestIds") {
-        let recipient = getCollectionEmail(filter.collectionCode[0]);
-        createMailerMessage(recipient, ids.toString());
-      } else {
-        //this part not working
-        navigator.clipboard.writeText(ids);
-        alert("ID list copied to clipboard.");
-      }
-    });
+async function getIds(buttonID){
+  let jqueryString = $.param(filter, true);
+  let apiString = 'https://api.gbif.org/v1/occurrence/search?' + jqueryString + '&limit=100';
+  // still need to convert year range when relevant
+  // other bugs with years
+  console.log(apiString);
+  let response = await fetch(apiString);
+  let data = await response.json();
+  const ids = data.results.map(d => d.key);
+  if (buttonID == "requestIds") {
+    let recipient = getCollectionEmail(filter.collectionCode[0]);
+    createMailerMessage(recipient, ids.toString());
+  } else {
+    //this part not working
+    navigator.clipboard.writeText(ids);
+    alert("ID list copied to clipboard.");
+  }
  }
 
  function convertYearRange(yearRangeObject) {
@@ -58,7 +56,6 @@ function createMailerMessage(recipient, idList) {
         "&body=" +
         body;
     window.location.href = link;
-
 }
 
 function getCollectionEmail(collectionCode) {

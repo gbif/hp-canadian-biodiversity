@@ -7,8 +7,8 @@ layout: occurrence
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <div id="specimenDiv">
-    <button id="requestIds" class="button is-primary" onclick="get_ids(this.id)" disabled>Request specimens</button>
-    <button id="copyIds" class="button is-primary" onclick="get_ids(this.id)">Copy occurrence IDs to clipboard</button>
+    <button id="requestIds" class="button is-primary" onclick="getIds(this.id)" disabled>Request specimens</button>
+    <button id="copyIds" class="button is-primary" onclick="getIds(this.id)">Copy occurrence IDs to clipboard</button>
 </div>
 
 <script>
