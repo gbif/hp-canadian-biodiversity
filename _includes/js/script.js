@@ -1,7 +1,6 @@
 
  function getFilter() {
     let searchParams = new URLSearchParams(window.location.search);
-    console.log(searchParams);
     let encodedFilter = searchParams.get("filter");
     if (!encodedFilter) return null;
     return JSON.parse(atob(encodedFilter)).must;
@@ -14,36 +13,58 @@
  }
 
  function updateGetIdButtons() {
-    requestButton = document.getElementById("requestIds");
-    copyButton = document.getElementById("copyIds");
+    let requestButton = document.getElementById("requestIds");
     filter = getFilter();
     if (filter && hasAAFCSingleCollectionFilter()) {
-        requestButton.disabled = false;
+      requestButton.disabled = false;
     } else {
-        requestButton.disabled = true;
+      requestButton.disabled = true;
     }
  }
 
-function get_ids(){
-    if (!filter) return;
-    jqueryString = $.param(filter, true);
-    console.log(jqueryString);
-    apiString = 'https://api.gbif.org/v1/occurrence/search?' + jqueryString + '&limit=100';
+
+function get_ids(buttonID){
+    let jqueryString = $.param(filter, true);
+    let apiString = 'https://api.gbif.org/v1/occurrence/search?' + jqueryString + '&limit=100';
     // still need to convert year range when relevant
     // other bugs with years
     console.log(apiString);
     fetch(apiString)
     .then(response => response.json())
     .then(data=> {
-        var ids =  data.results.map(d => d.key);
+      const ids = data.results.map(d => d.key);
+      if (buttonID == "requestIds") {
+        let recipient = getCollectionEmail(filter.collectionCode[0]);
+        createMailerMessage(recipient, ids.toString());
+      } else {
+        //this part not working
         navigator.clipboard.writeText(ids);
-        console.log(ids);
+        alert("ID list copied to clipboard.");
+      }
     });
  }
 
  function convertYearRange(yearRangeObject) {
     return Array(end - start + 1).fill().map((_, idx) => start + idx)
  }
+
+function createMailerMessage(recipient, idList) {
+    let body = "Request specimen information for the following specimen IDs: " + encodeURIComponent(idList);
+    let link =
+        "mailto:" +
+        recipient +
+        "&subject=" +
+        encodeURIComponent("Information Request from Hosted-Portal!") +
+        "&body=" +
+        body;
+    window.location.href = link;
+
+}
+
+function getCollectionEmail(collectionCode) {
+    //TODO: get email address from collectionCode
+    return "cnc@example.com";
+}
 
 
 
