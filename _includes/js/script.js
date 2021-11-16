@@ -2,8 +2,10 @@
  function getFilter() {
     let searchParams = new URLSearchParams(window.location.search);
     let encodedFilter = searchParams.get("filter");
-    if (!encodedFilter) return null;
-    return JSON.parse(atob(encodedFilter)).must;
+    if (!encodedFilter) filter = {};
+    else filter = JSON.parse(atob(encodedFilter)).must;
+    filter["country"] = 'CA';
+    return filter;
  }
 
  function hasAAFCSingleCollectionFilter() {
@@ -26,7 +28,9 @@
 async function getIds(buttonID) {
   console.log(filter)
   // still buggy with year range
-  if (filter && filter.hasOwnProperty('year')) convertFilterYears();
+  if (filter && filter.hasOwnProperty('year')) {
+    filter.year = await(convertFilterYears());
+  }
   let jqueryString = $.param(filter, true);
   console.log(jqueryString)
   let apiString = 'https://api.gbif.org/v1/occurrence/search?' + jqueryString + '&limit=100';
@@ -44,18 +48,18 @@ async function getIds(buttonID) {
   }
  }
 
-function convertFilterYears() {
-  var years = []
+async function convertFilterYears() {
+  var years = [];
   filter.year.forEach(e => {
     if (e.type === 'equals') years.push(e.value);
     if (e.type === 'range') {
       let end = e.value.lte;
-      let start = e.value.gte;
-      let individualYears = Array(end - start + 1).fill().map((_, idx) => start + idx)
-      years.concat(individualYears);
+      let start = parseInt(e.value.gte);
+      let individualYears = Array(end - start + 1).fill().map((_, idx) => start + idx);
+      years.push(individualYears);
     }
   });
-  filter.year = years;
+  return years.flat();
  }
 
 function createMailerMessage(recipient, idList) {
