@@ -5,6 +5,8 @@
     if (!encodedFilter) filter = {};
     else filter = JSON.parse(atob(encodedFilter)).must;
     filter["country"] = 'CA';
+    // filter does not include the equivalent of the key-value pair "notIssues": "COUNTRY_COORDINATE_MISMATCH"
+    // contained in the root predicate.
     return filter;
  }
 
