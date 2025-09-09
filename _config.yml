@@ -23,7 +23,7 @@ title: BioMob # the title of your site should go here
 description: >- # this means to ignore newlines (until baseurl:)
   BioMob provides tools to help users find the information they need.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hp-canadian-biodiversity.gbif.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://canadian-biodiversity.hp.gbif.org" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: AAFC_Canada
 # facebook_username: CanadianAgriculture
 

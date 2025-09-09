@@ -4,7 +4,7 @@
 
 # GBIF Hosted Portal: hp-canadian-biodiversity
 
-This Jekyll website, **[hp-canadian-biodiversity](https://hp-canadian-biodiversity.gbif.org/)**, makes use of a theme and biodiversity widgets developed by the GBIF network.
+This Jekyll website, **[hp-canadian-biodiversity](https://canadian-biodiversity.hp.gbif.org/)**, makes use of a theme and biodiversity widgets developed by the GBIF network.
 
 You can find information on editing this site and more on [gbif/hosted-portals](https://github.com/gbif/hosted-portals)
 
